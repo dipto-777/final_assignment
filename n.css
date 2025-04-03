@@ -1,0 +1,134 @@
+.body{
+    background-color: #ad5e00 ;
+  
+}
+#msg{
+    display: flex;
+    justify-content: center;
+    color: rgb(200, 49, 3);
+}
+#product-container{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+
+}
+.item-card{
+    cursor: pointer;
+}
+.card-body{
+    text-align: center;
+}
+
+
+
+.card {
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+    width: 280px !important;
+}
+
+.card:hover {
+    transform: scale(1.06);
+}
+.full-container{
+    display: flex;
+}
+
+.cart-container{
+    width: 370px !important;
+    padding: auto;
+    text-align: center;
+    border: 10px solid #ad5e00;
+    background-color: #d5cabd ;
+    border-radius: 30px;
+    height: auto ;
+    overflow-y: auto;
+    box-shadow: 0 0 30px #d5cabd;
+    margin-right: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.sl{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+
+.img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+
+    
+}
+.show{
+    padding: auto;
+    display: flex;
+    gap: 50px;
+    /* margin-left: 5px; */
+    justify-content: center;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nam{
+    flex-wrap: wrap;
+}
+
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    color:#ae5d00 !important;
+    font-weight: bold;
+}
+.card{
+    border: 5px solid #ffc75f !important;
+    background-color:  #fefedf !important;
+    border-radius: 30px  !important;
+}
+.card-img-top{
+    border-radius: 25px !important;
+}
+#button{
+    background-color: #ffc75f;
+    border: 1px solid #ad5e00;
+    color: black ;
+    font-weight: bold;
+}
+.info-btn{
+    background-color: #ae5d00 !important;
+    border: 2px solid #ae5d00 !important;
+    color: #fdf7ff !important;
+}
+
+.modal-body{
+    background-color: #ffc75f;
+    border: 5px solid #ffc75f;
+}
+.modal-header{
+    background-color: #ae5d00;
+}
+.modal-footer{
+    background-color: #ae5d00 !important;
+    border: 5px solid #ae5d00;
+}
+
+
+
+#msg{
+    width: 300px;
+    display: flex ;
+    justify-content: center;
+    padding-left : 23px !important;
+    margin-left: 500px;
+    padding: 10px;
+    margin-top: 100px;
+    background-color: #ffc75f;
+    border: 3px solid #fefedf;
+}
